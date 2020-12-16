@@ -21,16 +21,22 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+package cpk2.pbo.auth;
 
-package cpk2.pbo.chatapp;
+import javax.swing.JButton;
 
 /**
  *
  * @author ubaid
  */
-public class Main {
-    public static void main(String[] args) {
-        MainWindow mw = new MainWindow();
-    }
+public class Auth{
 
+    void show(){
+        JButton to_register_button = new JButton("Register");
+        JButton to_login_button = new JButton("Login");
+        JButton submit_register_button = new JButton("Register");
+        JButton submit_login_button = new JButton("Login");
+        
+    }
+    
 }
